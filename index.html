@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="ffcmd.js"></script>
+		<script type="text/javascript">
+			var ffcmd;
+			function btAddVideo(){
+				ffcmd.addVideoSource();
+			}
+			function btAddAudio(){
+				
+			}
+			window.onload = function(){
+				ffcmd = FFCmd(document.getElementById("ffcmd_svg"));
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="btAddVideo()">添加Video源</button>
+		<button onclick="btAddAudio()">添加Audio源</button>
+		<embed id="ffcmd_svg" src="ffcmd.svg" type="image/svg+xml"></embed>
+		<!--<svg id="ffcmd_svg"></svg>-->
+	</body>
+</html>
