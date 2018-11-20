@@ -1,0 +1,37 @@
+text{
+    fill:#AAA; /*fill填满，铺满*/
+    stroke:#330000;  /*文本轮廓的线条颜色*/
+    stroke-width:0; /*文本轮廓的厚度，线条宽度*/
+    stroke-opacity: .5;  /*轮廓透明度*/
+    font-size:8;
+    /*font-weight:600;*/
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+text:focus{
+    fill:#AAA; /*fill填满，铺满*/
+    stroke:#330000;  /*文本轮廓的线条颜色*/
+    stroke-width:0; /*文本轮廓的厚度，线条宽度*/
+    stroke-opacity: 1;  /*轮廓透明度*/
+    font-size:16em;
+    /*font-weight:600;*/
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+rect{
+	fill:#75a1be;
+    stroke:#305060;  /*文本轮廓的线条颜色*/
+    /*stroke-width:8; 
+    stroke-opacity: .5;
+    font-size:16em;
+    font-weight:600;*/
+}
+rect:focus{
+	fill:#395060;
+    stroke:#330000;
+    /*stroke-width:8;*/
+    /*stroke-opacity: .5;
+    font-size:16em;
+    font-weight:600;*/
+}
