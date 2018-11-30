@@ -1,6 +1,6 @@
 text{
-    fill:#AAA; /*fill填满，铺满*/
-    stroke:#330000;  /*文本轮廓的线条颜色*/
+    fill:#FFFFFF; /*fill填满，铺满*/
+    stroke:#222222;  /*文本轮廓的线条颜色*/
     stroke-width:0; /*文本轮廓的厚度，线条宽度*/
     stroke-opacity: .5;  /*轮廓透明度*/
     font-size:8;
@@ -21,17 +21,29 @@ text:focus{
 
 rect{
 	fill:#75a1be;
-    stroke:#305060;  /*文本轮廓的线条颜色*/
-    /*stroke-width:8; 
-    stroke-opacity: .5;
+	opacity:0.9;
+    stroke:#000; /*文本轮廓的线条颜色*/
+   	stroke-width:8; 
+    /* stroke-opacity: .5;
     font-size:16em;
-    font-weight:600;*/
+    font-weight:600;*/*/
 }
 rect:focus{
 	fill:#395060;
-    stroke:#330000;
+    stroke:#395060;
     /*stroke-width:8;*/
     /*stroke-opacity: .5;
     font-size:16em;
     font-weight:600;*/
+}
+path:{
+	stroke:#330000;
+	fill:#75A1BE;
+	stroke-width:2;
+	fill-opacity:1.0;
+}
+circle{
+	r:10;
+	stroke:#000;
+	fill:#FFFFFF
 }
